@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "ml-project-with-mlflow"
 AUTHOR_NAME = "RohitPawar001"
-SRC_REPO = "mlproject_with_mlflow"
+SRC_REPO = "ml_project"
 AUTHOR_EMAIL = "rppawar491@gmail.com"
 
 setuptools.setup(
