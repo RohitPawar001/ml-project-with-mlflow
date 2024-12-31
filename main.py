@@ -1,10 +1,10 @@
-import sys
+"""import sys
 import os
 src_path = "D:\\software\\python_vs\\ml_project_with_mlflow\\src"
 sys.path.append(os.path.abspath(src_path))
 print("Current sys.path:", sys.path)
 from ml_project.utils import comman
-print("Imports successful")
+print("Imports successful")"""
 
 
 
