@@ -1,9 +1,10 @@
 from ml_project.constants import *
 from ml_project.utils.comman import read_yaml, create_directories
 from ml_project.entity.config_entity import DataIngestionConfig
+from pathlib import Path
 
 class ConfigurationManager:
-    def __init__(self, config_filepath, params_filepath, schema_filepath):
+    def __init__(self, config_filepath:Path, params_filepath, schema_filepath):
         self.config = read_yaml(config_filepath)
         self.params = read_yaml(params_filepath)
         self.schema = read_yaml(schema_filepath)
@@ -17,7 +18,7 @@ class ConfigurationManager:
         
         data_ingestion_config = DataIngestionConfig(
             root_dir=config['root_dir'],
-            source_url=config['source_url'],
+            source_URL=config['source_URL'],  
             local_data_file=config['local_data_file'],
             unzip_dir=config['unzip_dir']
         )

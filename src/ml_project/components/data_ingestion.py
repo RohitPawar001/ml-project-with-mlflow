@@ -19,7 +19,7 @@ class DataIngestion:
 
         if not os.path.exists(self.config.local_data_file):
             filename, headers = request.urlretrieve(
-                url=self.config.source_url,
+                url=self.config.source_URL,
                 filename=self.config.local_data_file
             )
             print(f"{filename} downloaded! with the following info: \n{headers}")
