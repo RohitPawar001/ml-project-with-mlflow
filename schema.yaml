@@ -10,6 +10,6 @@ COLUMNS:
   pH: float64
   sulphates: float64
   alcohol: int64
-
+  
 TARGET_COLUMN:
   name: quality
