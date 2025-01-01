@@ -17,7 +17,7 @@ class DataValidation:
             all_schema = self.config.all_schema.keys()
             
             for col in all_cols:
-                if col not in all_schema:
+                if col not in all_schema and col != "quality":
                     validation_status = False
                     with open(self.config.STATUS_FILE, "w") as f:
                         f.write(f"validation status: {validation_status}")

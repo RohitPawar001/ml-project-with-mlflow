@@ -15,7 +15,11 @@ class DataTransformationTrainingPipeline:
             with open(Path("D:\\software\\python_vs\\ml_project_with_mlflow\\artifacts\\data_validation\\status.txt") , "r") as f:
                 status = f.read().split(" ")[-1]
             if status == "True":
-                config = ConfigurationManager()
+                CONFIG_FILE_PATH = Path(r"D:\software\python_vs\ml_project_with_mlflow\config\config.yaml")
+                PARAMS_FILE_PATH = Path(r"D:\software\python_vs\ml_project_with_mlflow\params.yaml")
+                SCHEMA_FILE_PATH = Path(r"D:\software\python_vs\ml_project_with_mlflow\schema.yaml")
+                
+                config = ConfigurationManager(CONFIG_FILE_PATH, PARAMS_FILE_PATH, SCHEMA_FILE_PATH)                
                 data_transformation_config = config.get_data_transformation_config()
                 data_transformation = DataTransformation(config=data_transformation_config)
                 data_transformation.train_test_spliting()
