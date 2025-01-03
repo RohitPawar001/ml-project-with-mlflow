@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/software/python_vs/ml_project_with_mlflow/mlruns/0/cf7d1e20651546668b687262eecfcbc3/artifacts
+end_time: 1735921910106
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf7d1e20651546668b687262eecfcbc3
+run_name: funny-jay-497
+run_uuid: cf7d1e20651546668b687262eecfcbc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735921904498
+status: 3
+tags: []
+user_id: rppawar491

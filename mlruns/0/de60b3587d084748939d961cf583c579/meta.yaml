@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/software/python_vs/ml_project_with_mlflow/mlruns/0/de60b3587d084748939d961cf583c579/artifacts
+end_time: 1735921800605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de60b3587d084748939d961cf583c579
+run_name: mysterious-hen-766
+run_uuid: de60b3587d084748939d961cf583c579
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735921794959
+status: 3
+tags: []
+user_id: rppawar491
